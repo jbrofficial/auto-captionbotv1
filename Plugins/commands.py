@@ -22,7 +22,7 @@ start_button=InlineKeyboardMarkup(
                   InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
               ], 
               [
-                  InlineKeyboardButton("📫 UPDATES", url = "https://t.me/Ts_bots"), 
+                  InlineKeyboardButton("📫 UPDATES", url = "https://t.me/crazy_rockers"), 
                   InlineKeyboardButton("📕 ABOUT", callback_data = "about_data")
               ], 
               [
@@ -37,7 +37,7 @@ start_button=InlineKeyboardMarkup(
 help_button=InlineKeyboardMarkup(
         [
               [
-                InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
+                InlineKeyboardButton("ABOUT JBR CREATION", callback_data = "JBRCREATION")
               ], 
               [
                   InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
@@ -140,7 +140,7 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
+                        InlineKeyboardButton("ABOUT JBRCREATION", callback_data = "JBRCREATION")
                        ],
                        [
                         InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
@@ -162,7 +162,7 @@ async def button(bot, cmd: CallbackQuery):
                         InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
                        ], 
                        [
-                        InlineKeyboardButton("📫 UPDATES", url="https://t.me/ts_bots"),
+                        InlineKeyboardButton("📫 UPDATES", url="https://t.me/crazy_rockers"),
                         InlineKeyboardButton("📕 ABOUT ME", callback_data="about_data")
                        ],
                        [
