@@ -140,7 +140,7 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("ABOUT JBRCREATION", callback_data = "JBRCREATION")
+                        InlineKeyboardButton("ABOUT JBRCREATION", callback_data = "markdown_data")
                        ],
                        [
                         InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
